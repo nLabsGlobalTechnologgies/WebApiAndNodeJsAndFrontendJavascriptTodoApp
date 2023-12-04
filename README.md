@@ -48,10 +48,13 @@ Proje, iki farklı backend içermektedir: .NET WebApi (C#) ve JavaScript (Node.j
 
 3. MongoDB bağlantı bilgilerinizi `api.js` dosyasında güncelleyin.
 
-4. JavaScript backend'i başlatmak için aşağıdaki komutu çalıştırın.
+4. JavaScript backend'i başlatmak için aşağıdaki komutu çalıştırın. | yada
 
     ```bash
     npm start
+    ```
+     ```bash
+    nodemon .api.js
     ```
 
     JavaScript backend, varsayılan olarak `http://localhost:7000` adresinde çalışacaktır.
