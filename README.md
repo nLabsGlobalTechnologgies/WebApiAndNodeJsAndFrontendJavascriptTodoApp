@@ -3,6 +3,10 @@
 Bu proje, .NET 8 WebApi ve Node.js kullanılarak geliştirilmiş bir To-Do (Görev) uygulamasını içermektedir. Projede ayrıca MongoDB kullanılmıştır ve Frontend kısmında JavaScript ile bir arayüz oluşturulmuştur.
 ![Açıklama](apiBackend.PNG)
 
+## Önemli hatırlatma aşagıdaki linke giderseniz swagger üzerinden sizden kaç adet fake data eklemek istediginizi soracaktır.
+```bash
+    https://localhost:7296/api/Todos/AddTodosToDatabaseInsert
+```
 
 ## Projeyi Çalıştırma
 
