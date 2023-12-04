@@ -1,4 +1,3 @@
-// express modülünün ismini doğru yazmalısınız, düzeltildi.
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
