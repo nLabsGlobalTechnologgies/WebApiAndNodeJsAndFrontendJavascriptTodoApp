@@ -64,7 +64,7 @@ namespace Server.API.Controllers
             var result = stopwatch.Elapsed.TotalMilliseconds;
 
             // Kullanıcıya bilgi mesajıyla birlikte HTTP OK döner.
-            return Ok(new { Message = $"Toplam: {totalTodoCount} adet Todo Eklendi" });
+            return Ok(new { Message = $"Toplam: {totalTodoCount} adet Todo Eklendi. İşlem: {result} milisaniye sürdü" });
         }
 
         // Tüm Todo öğelerini getiren ve zaman ölçen HTTP GET endpoint'i.
